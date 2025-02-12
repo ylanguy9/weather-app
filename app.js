@@ -62,7 +62,7 @@ function getLocation() {
       h4.textContent = `Ville: ${ville}`;
       h3.textContent = `Pays: ${pays}`;
       p.textContent = `Température actuelle : ${temp}°C`;
-      img.src = `"https://openweathermap.org/img/wn/${icon}@2x.png"`
+      img.src = `https://openweathermap.org/img/wn/${icon}@2x.png`
       
 
       informations.append(p, h4, h3);
